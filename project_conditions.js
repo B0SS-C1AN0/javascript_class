@@ -1,7 +1,7 @@
 //the project was to create a prompt
  //for the user to guess the right integer
 var numbers = prompt("guess the number");
-if (number = 2) {
+if (numbers = 2) {
      console.log("correct");
 } else {
  console.log("wrong");    
