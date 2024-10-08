@@ -1,13 +1,11 @@
-
-for (let i = 0; i < 100; index++) {
-  for (let index = 0; index < array.length; index++) {
-     const element = array[index];
-     
+//EVEN
+for (let even = 2; even <= 100;  even += 2)
+  {
+  console.log(even);
   }
-}
-
-
-for (let i = 1; i < 100; i++) {
-    console.log (i % 100);
-     
-}
+  
+  //ODD
+  for (let odd = 1; odd <= 100;  odd += 2)
+  {
+  console.log(odd);
+  }

@@ -1,20 +1,20 @@
 
 //fizzbuzz
-for (let even = 2; even <= 100;  even += 2)
-{
-console.log(even);
+for (let i = 0; i <= 100; i++){
+
+  if(i % 3 == 0 && i % 5 == 0){
+    
+    console.log("fizzBuzz");
+  }
+  else if(i % 3 == 0)
+    {
+      console.log("fizz");
+
+    }
+  else if(i % 5 == 0)
+    {
+      console.log("buzz");
+
+    }
+else{console.log(i);}
 }
-
-
-//even
-for (let even = 2; even <= 100;  even += 2)
-{
-console.log(even);
-}
-
-//odd
-for (let odd = 1; odd <= 100;  odd += 2)
-{
-console.log(odd);
-}
-

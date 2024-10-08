@@ -11,6 +11,6 @@ function addTwo(a, b){
 
      //function alternative
 function addTwo(c, d){
-     let result = a + b;
+     let result = c + d;
      return result; }
    console.log(addTwo(12,15)); 
