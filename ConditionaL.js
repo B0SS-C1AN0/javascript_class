@@ -9,12 +9,10 @@ if (numbers == 2) {
 
  //i also tried the code in ternary conditions
  var numbers = prompt("guess the number");
- console.log(numbers==2 ? "correct" : "not correct");
+ console.log(numbers == 2 ? "correct" : "not correct");
 
  //conditionals in arrow function
- const behaviour = (bad, good, isGood) => {
-     console.log(isGood ? good : bad);
-   };
+ const behaviour = (bad, good, isGood) => {console.log(isGood ? good : bad);};
    
    // Usage example
    behaviour("This is bad behavior.", "This is good behavior.", true);  // Outputs: This is good behavior.
