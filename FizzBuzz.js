@@ -16,5 +16,5 @@ for (let i = 0; i <= 100; i++){
       console.log("buzz");
 
     }
-else{console.log(i);}
+//else{console.log(i);}
 }

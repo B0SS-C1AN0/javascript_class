@@ -22,3 +22,4 @@ console.log(addTwo(12, 15));
 //ARROW FUNCTION
 // var square (apple) => {return apple * apple;};
 const animals = (goat,pig) => console.log(goat==2 ? goat : pig)
+
